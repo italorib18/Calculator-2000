@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator.com</title>
+</head>
+<body>
+    <h1>Eis aqui a primeira calculadora</h1>
+<p>calculadora boa funciona uma vez só...</p>
+    <script>
+        alert("Bem vindo a calculator-2000")
+        let op = prompt("Escolha o Operador( + para soma, - para subtração, * para multiplicação, / para divisão, % para resto da divisão, ** para potenciação )");
+        let n1 = parseFloat(prompt("digite um número"));
+        let n2 = parseFloat(prompt("Digite outro número"));
+
+        if (op === "+") { alert(`O resultado é ${n1+n2}`);
+            
+        } else if (op === "-"){ alert (`O resultado é ${n1-n2}`);
+
+        } else if (op === "*"){ alert (`O resultado é ${n1*n2}`);
+
+        } else if(op === "/"){ alert(`O resultado é ${n1/n2}`);
+
+        } else if(op === "%"){ alert(`O resultado é ${n1%n2}`);
+            
+        } else if(op === "**"){ alert (`O resultado é ${n1**n2}`);    
+
+        } else {alert("operação inválida")
+        }
+    
+    </script>
+</body>
+</html>
