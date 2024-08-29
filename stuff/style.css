@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+header{
+    background-color: antiquewhite;
+    border-radius: 7px;
+    color: blueviolet;
+}
+footer{
+    font-size: 0.5rem;
+}
+#primeiroBotao{
+    margin-top: 20px;
+}
+img {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    z-index: 10; 
+}
