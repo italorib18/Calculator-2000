@@ -1,14 +1,33 @@
 body{
-    background-color: blueviolet;
+    background-color: #2E073F;
     text-align: center;
 }
 header{
-    background-color: antiquewhite;
+    background-color: #EBD3F8;
     border-radius: 7px;
-    color: blueviolet;
+    color: #7A1CAC;
 }
 footer{
     font-size: 0.5rem;
+}
+h1{
+    background-color:#7A1CAC;
+    color: #EBD3F8;
+    border-radius: 7px;
+    width:fit-content;
+    margin-inline-start: 43% ;
+}
+p{
+    background-color:#7A1CAC;
+    color: #EBD3F8;
+    border-radius: 7px;
+}
+footer{
+    color: #EBD3F8;
+}
+button{
+    margin-inline-start: 10px;
+    padding: 5px;
 }
 #primeiroBotao{
     margin-top: 20px;
