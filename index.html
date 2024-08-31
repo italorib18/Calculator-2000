@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator memes</title>
+    <title>Calculator-2000³</title>
     <link rel="stylesheet" href="./stuff/style.css">
 </head>
 <body>
-    <header>THE CALCULATOR 2000²</header>
-    <div id="tudo">
-        <h1>Bem-vindo!</h1>
-        <p id="saudação">Olá <span id="usr">usuário</span>!</p>
-        <p>Para ultilizar a Calculator, escolha uma das operações abaixo:</p>
-        <div id="bts">
-            <button onclick="soma()">+</button>
-            <button onclick="subtração()">-</button>
-            <button onclick="multiplicação()">x</button>
-            <button onclick="divisão()">/</button>
-            <button onclick="resto()">%</button>
-            <button onclick="raiz()">√</button>
+    <header>Calculator-2000³</header>
+    <div id="body">
+        <div id="container">
+            <div id="visor"></div>
+            <input id="primeiraEntrada" type="text" placeholder="digite um valor">
+            <input id="segundaEntrada" type="text" placeholder="digite outro valor">
+            <div id="bts">
+                <button onclick="soma()">+</button>
+                <button onclick="subtração()">-</button>
+                <button onclick="multiplicação()">x</button>
+                <button onclick="divisão()">/</button>
+                <button onclick="resto()">%</button>
+                <button onclick="raiz()">√</button>
+            </div>
+            <button id="limpador" onclick="limpar()">Clear</button>
         </div>
-        <button id="primeiroBotao" onclick="trolage()">referência master</button>
-        <img src="./stuff/calculator-meme.jpg" id="imagemFull" alt="Imagem Fullscreen">
-        <footer>Supomos que você não é um imbecil, e que você não vai usar letras nos calculos</footer>    
     </div>
-    
     <script src="./stuff/main.js"></script>
 </body>
 </html>
